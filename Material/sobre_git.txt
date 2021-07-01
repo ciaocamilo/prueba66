@@ -1,0 +1,17 @@
+CREACIÓN DEL repositorio
+
+echo "# prueba66" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ciaocamilo/prueba66.git // Cambiar el repositorio
+git push -u origin main
+
+
+AGREGAR Y SUBIR CAMBIOS
+
+git status
+git add .
+git commit -m "Mensaje"
+git push
